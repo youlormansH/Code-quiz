@@ -15,33 +15,33 @@ var games = [];
 const theQuestions =[
     {
         question: "The condition in an if/else statement is enclosed within ________.",
-        answer: {
-            1: "quotes",
-            2: "curly brackets",
-            3: "parenthesis",
-            4: "square brackets",
-        },
+        answer: [
+            '1: "quotes"',
+            '2: "curly brackets"',
+            '3: "parenthesis"',
+            '4: "square brackets"',
+        ],
         correctAnswer: "curly brackets",
     },
     
         {question: "Commonly used data types DO NOT include:",
-        answers: {
-          1: "strings",
-          2: "booleans",
-          3: "alerts",
-          4: "numbers",
-        },
+        answers: [
+          '1: "strings"',
+          '2: "booleans"',
+          '3: "alerts"',
+          '4: "numbers"',
+        ],
         correctAnswer: "alerts",
     },
 
     {
         question: "Arrays in JavaScript can be used to store ____________.",
-        answers: {
-          1: "numbers and strings",
-          2: "other arrays",
-          3: "booleans",
-          4: "all of the above",
-        },
+        answers: [
+          '1: "numbers and strings"',
+          '2: "other arrays"',
+          '3: "booleans"',
+          '4: "all of the above"',
+        ],
         correctAnswer: "all of the above",
       },
 
