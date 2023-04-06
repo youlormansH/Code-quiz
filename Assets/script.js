@@ -1,7 +1,9 @@
 //
 var startQuizEl= document.getElementById("start-quiz");
-var question = document.querySelector(".question-screen");
+var introDiv= document.getElementById("intro-div");
+var questionDiv = document.querySelector(".question-screen");
 var answer = document.getElementById("answer");
+var question = document.getElementById("question");
 var timerEl = document.getElementById("countdown");
 var score = document.getElementById("score");
 var initials = document.getElementById("initials");
@@ -79,10 +81,12 @@ timerEl.textContent = `time: ${timeLeft}`;
 startQuizEl.addEventListener("click", function () {
     timerId = setInterval(timerTick, 1000);
     timerEl.textContent = `time: ${timeLeft}`;
-    renderQuestions(question[0]);
+    questionDiv.removeAttribute("class");
+    introDiv.setAttribute("class","hide");
+    renderQuestions(theQuestions[0]);
   });
   
-  question.addEventListener("click", function (event) {
+  questionDiv.addEventListener("click", function (event) {
     if (activeStepIndex === 5) {
       answer.textContent = "CONGRATULATIONS!  GAME OVER";
       score.textContent = timeLeft;
@@ -100,8 +104,8 @@ startQuizEl.addEventListener("click", function () {
   });
   // start quiz function
   function renderQuestions(activeQuestion){
-    question.innerHTML = "";
-
+    //question.innerHTML = "";
+    question.textContent= activeQuestion.question;
 
 
 

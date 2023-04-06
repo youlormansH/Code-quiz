@@ -67,20 +67,22 @@ float: right;
   width: 50%;
   margin: 0 auto;
 }
-main{
+/* main{
   display: none;
-}
+} */
 
-.question-screen {
+/* .question-screen {
   display: none;
+} */
+.hide {
+  display:none
 }
-
-.quiz-finish-screen {
+/* .quiz-finish-screen {
   display: block;
-}
-.highscores-screen {
+} */
+/* .highscores-screen {
   display: block;
-}
+} */
 
 .highscores-screen ol {
   overflow: scroll;

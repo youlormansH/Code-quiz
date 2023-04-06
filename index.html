@@ -16,6 +16,7 @@
       </div>
 
       <div class="inner-container">
+        <div id="intro-div">
         <header class="quiz-intro">
              <h1> welcome to the quiz</h1>
              <p>Try to answer the following code-related questions within the time
@@ -23,10 +24,10 @@
               by five seconds!</p>
               <button id="start-quiz">start quiz</button>
         </header>
-
+      </div>
         <main>
-          <section class="question-screen">
-            <h2 id=""quesstion> questions here</h2>
+          <section class="question-screen hide">
+            <h2 id="question"> questions here</h2>
             <ul>
 
               <li><button id="1"> answer 1</button></li>
@@ -36,17 +37,17 @@
             </ul>
           </section>
 
-          <section class="quiz-finish-screen">
+          <section class="quiz-finish-screen hide">
             <h2>quiz finish</h2>
             <p>your score:00</p>
-            <div>
-              <label for="">enter initials</label>
+            <!-- <div> -->
+              <label id="initials">enter initials</label>
               <input type="text">
               <button>submit</button>
-            </div>
+            <!-- </div> -->
           </section>
 
-          <section class="highscores-screen">
+          <section class="highscores-screen hide">
             <h2>highscores</h2>
             <button>go back</button>
             <button>clear highscores</button>
