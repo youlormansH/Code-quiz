@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>code quiz</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+
+     <div class="top-bar">
+      <button>view highscores</button>
+        <p id="countdown" >time: 00:00</p>
+      </div>
+
+      <div class="inner-container">
+        <header class="quiz-intro">
+             <h1> welcome to the quiz</h1>
+             <p>Try to answer the following code-related questions within the time
+              limit. Keep in mind that incorrect answers will penalize your score/time
+              by five seconds!</p>
+              <button id="start-quiz">start quiz</button>
+        </header>
+
+        <main>
+          <section class="question-screen">
+            <h2 id=""quesstion> questions here</h2>
+            <ul>
+
+              <li><button id="1"> answer 1</button></li>
+              <li><button id="2"> answer 2</button></li>
+              <li><button id="3"> answer 3</button></li>
+              <li><button id="4"> answer 4</button></li>
+            </ul>
+          </section>
+
+          <section class="quiz-finish-screen">
+            <h2>quiz finish</h2>
+            <p>your score:00</p>
+            <div>
+              <label for="">enter initials</label>
+              <input type="text">
+              <button>submit</button>
+            </div>
+          </section>
+
+          <section class="highscores-screen">
+            <h2>highscores</h2>
+            <button>go back</button>
+            <button>clear highscores</button>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>
