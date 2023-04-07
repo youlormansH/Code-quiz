@@ -106,7 +106,4 @@ startQuizEl.addEventListener("click", function () {
   function renderQuestions(activeQuestion){
     //question.innerHTML = "";
     question.textContent= activeQuestion.question;
-
-
-
   }
