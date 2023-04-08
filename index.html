@@ -30,20 +30,22 @@
             <h2 id="question"> questions here</h2>
             <ul>
 
-              <li><button id="1"> answer 1</button></li>
-              <li><button id="2"> answer 2</button></li>
-              <li><button id="3"> answer 3</button></li>
-              <li><button id="4"> answer 4</button></li>
+              <li><button class="answers-button" id="1"> answer 1</button></li>
+              <li><button class="answers-button" id="2"> answer 2</button></li>
+              <li><button class="answers-button" id="3"> answer 3</button></li>
+              <li><button class="answers-button" id="4"> answer 4</button></li>
             </ul>
+            <h3 class="answer-feedback"></h3>
           </section>
 
           <section class="quiz-finish-screen hide">
             <h2>quiz finish</h2>
-            <p>your score:00</p>
+            <p class="quiz-score">your score:</p>
             <!-- <div> -->
+              <!-- change the color to white -->
               <label id="initials">enter initials</label>
-              <input type="text">
-              <button>submit</button>
+              <input type="text" id="user-initials" placeholder="Enter you name">
+              <button id="submit-score">submit</button>
             <!-- </div> -->
           </section>
 

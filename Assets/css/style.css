@@ -71,9 +71,9 @@ float: right;
   display: none;
 } */
 
-/* .question-screen {
-  display: none;
-} */
+.answer-feedback  {
+  color: #fff;
+}
 .hide {
   display:none
 }
