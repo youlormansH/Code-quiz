@@ -77,8 +77,8 @@ float: right;
 .hide {
   display:none
 }
-/* .quiz-finish-screen {
-  display: block;
+.quiz-finish-screen {
+  color: white;
 } */
 /* .highscores-screen {
   display: block;
